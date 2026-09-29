@@ -1,0 +1,856 @@
+desc: (none)
+cmd: ./Bakery_func
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=47322734
+mem_heap_B=599032
+mem_heap_extra_B=344328
+mem_stacks_B=0
+heap_tree=detailed
+n5: 599032 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 365568 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 365568 0x109780: main (Bakery_func.c:176)
+ n1: 122880 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 122880 0x109780: main (Bakery_func.c:176)
+ n1: 60480 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 60480 0x109780: main (Bakery_func.c:176)
+ n1: 25072 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 25072 0x109780: main (Bakery_func.c:176)
+ n0: 25032 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=83189162
+mem_heap_B=819298
+mem_heap_extra_B=473950
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=128273859
+mem_heap_B=1028077
+mem_heap_extra_B=597051
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1028077 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 621408 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 621408 0x109780: main (Bakery_func.c:176)
+ n1: 209422 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 209422 0x109780: main (Bakery_func.c:176)
+ n1: 103136 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 103136 0x109780: main (Bakery_func.c:176)
+ n1: 42849 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 42849 0x109780: main (Bakery_func.c:176)
+ n0: 28798 in 5 places, all below massif's threshold (1.00%)
+ n1: 22464 0x10A31A: refill (Bakery_func.c:578)
+  n0: 22464 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=4
+#-----------
+time=153145096
+mem_heap_B=1130348
+mem_heap_extra_B=657596
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=186810220
+mem_heap_B=1263249
+mem_heap_extra_B=736071
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1263249 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 764192 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 764192 0x109780: main (Bakery_func.c:176)
+ n1: 258063 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 258063 0x109780: main (Bakery_func.c:176)
+ n1: 126944 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 126944 0x109780: main (Bakery_func.c:176)
+ n1: 52647 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 52647 0x109780: main (Bakery_func.c:176)
+ n0: 34523 in 5 places, all below massif's threshold (1.00%)
+ n1: 26880 0x10A31A: refill (Bakery_func.c:578)
+  n0: 26880 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=6
+#-----------
+time=230538466
+mem_heap_B=1432955
+mem_heap_extra_B=836013
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=263922501
+mem_heap_B=1559084
+mem_heap_extra_B=909900
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=288435918
+mem_heap_B=1638098
+mem_heap_extra_B=955958
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=329629258
+mem_heap_B=1763443
+mem_heap_extra_B=1029357
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=349322560
+mem_heap_B=1821321
+mem_heap_extra_B=1063471
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1821321 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1099232 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 1099232 0x109780: main (Bakery_func.c:176)
+ n1: 371640 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 371640 0x109780: main (Bakery_func.c:176)
+ n1: 181696 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 181696 0x109780: main (Bakery_func.c:176)
+ n1: 76426 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 76426 0x109780: main (Bakery_func.c:176)
+ n0: 48967 in 5 places, all below massif's threshold (1.00%)
+ n1: 43360 0x10A31A: refill (Bakery_func.c:578)
+  n0: 43360 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=11
+#-----------
+time=379776970
+mem_heap_B=1897025
+mem_heap_extra_B=1108687
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1897025 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1144160 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 1144160 0x109780: main (Bakery_func.c:176)
+ n1: 386518 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 386518 0x109780: main (Bakery_func.c:176)
+ n1: 189696 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 189696 0x109780: main (Bakery_func.c:176)
+ n1: 79929 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 79929 0x109780: main (Bakery_func.c:176)
+ n0: 51218 in 5 places, all below massif's threshold (1.00%)
+ n1: 45504 0x10A31A: refill (Bakery_func.c:578)
+  n0: 45504 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=12
+#-----------
+time=416036889
+mem_heap_B=2005493
+mem_heap_extra_B=1172211
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=465249944
+mem_heap_B=2130621
+mem_heap_extra_B=1245499
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=506800633
+mem_heap_B=2230415
+mem_heap_extra_B=1304601
+mem_stacks_B=0
+heap_tree=detailed
+n6: 2230415 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1347232 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 1347232 0x109780: main (Bakery_func.c:176)
+ n1: 454178 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 454178 0x109780: main (Bakery_func.c:176)
+ n1: 223456 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 223456 0x109780: main (Bakery_func.c:176)
+ n1: 94127 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 94127 0x109780: main (Bakery_func.c:176)
+ n0: 59038 in 5 places, all below massif's threshold (1.00%)
+ n1: 52384 0x10A31A: refill (Bakery_func.c:578)
+  n0: 52384 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=15
+#-----------
+time=537488703
+mem_heap_B=2288059
+mem_heap_extra_B=1339133
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=582497369
+mem_heap_B=2393414
+mem_heap_extra_B=1400994
+mem_stacks_B=0
+heap_tree=detailed
+n6: 2393414 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1443872 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 1443872 0x109780: main (Bakery_func.c:176)
+ n1: 486797 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 486797 0x109780: main (Bakery_func.c:176)
+ n1: 240256 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 240256 0x109780: main (Bakery_func.c:176)
+ n1: 101409 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 101409 0x109780: main (Bakery_func.c:176)
+ n0: 63864 in 5 places, all below massif's threshold (1.00%)
+ n1: 57216 0x10A31A: refill (Bakery_func.c:578)
+  n0: 57216 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=17
+#-----------
+time=625434568
+mem_heap_B=2478211
+mem_heap_extra_B=1451661
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=644277352
+mem_heap_B=2517731
+mem_heap_extra_B=1474677
+mem_stacks_B=0
+heap_tree=detailed
+n6: 2517731 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1517760 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 1517760 0x109780: main (Bakery_func.c:176)
+ n1: 511774 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 511774 0x109780: main (Bakery_func.c:176)
+ n1: 252384 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 252384 0x109780: main (Bakery_func.c:176)
+ n1: 106662 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 106662 0x109780: main (Bakery_func.c:176)
+ n0: 67871 in 5 places, all below massif's threshold (1.00%)
+ n1: 61280 0x10A31A: refill (Bakery_func.c:578)
+  n0: 61280 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=19
+#-----------
+time=678257318
+mem_heap_B=2591725
+mem_heap_extra_B=1517739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=701248640
+mem_heap_B=2648533
+mem_heap_extra_B=1551003
+mem_stacks_B=0
+heap_tree=detailed
+n6: 2648533 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1597728 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 1597728 0x109780: main (Bakery_func.c:176)
+ n1: 538970 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 538970 0x109780: main (Bakery_func.c:176)
+ n1: 265376 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 265376 0x109780: main (Bakery_func.c:176)
+ n1: 112303 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 112303 0x109780: main (Bakery_func.c:176)
+ n0: 70476 in 5 places, all below massif's threshold (1.00%)
+ n1: 63680 0x10A31A: refill (Bakery_func.c:578)
+  n0: 63680 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=21
+#-----------
+time=730792391
+mem_heap_B=2702263
+mem_heap_extra_B=1582857
+mem_stacks_B=0
+heap_tree=detailed
+n6: 2702263 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1629568 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 1629568 0x109780: main (Bakery_func.c:176)
+ n1: 549644 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 549644 0x109780: main (Bakery_func.c:176)
+ n1: 270720 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 270720 0x109780: main (Bakery_func.c:176)
+ n1: 114381 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 114381 0x109780: main (Bakery_func.c:176)
+ n0: 72094 in 5 places, all below massif's threshold (1.00%)
+ n1: 65856 0x10A31A: refill (Bakery_func.c:578)
+  n0: 65856 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=22
+#-----------
+time=770906976
+mem_heap_B=2785054
+mem_heap_extra_B=1631378
+mem_stacks_B=0
+heap_tree=detailed
+n6: 2785054 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1679776 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 1679776 0x109780: main (Bakery_func.c:176)
+ n1: 566574 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 566574 0x109780: main (Bakery_func.c:176)
+ n1: 279200 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 279200 0x109780: main (Bakery_func.c:176)
+ n1: 118102 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 118102 0x109780: main (Bakery_func.c:176)
+ n0: 73882 in 5 places, all below massif's threshold (1.00%)
+ n1: 67520 0x10A31A: refill (Bakery_func.c:578)
+  n0: 67520 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=23
+#-----------
+time=797423879
+mem_heap_B=2842462
+mem_heap_extra_B=1664874
+mem_stacks_B=0
+heap_tree=detailed
+n6: 2842462 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1714592 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 1714592 0x109780: main (Bakery_func.c:176)
+ n1: 578492 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 578492 0x109780: main (Bakery_func.c:176)
+ n1: 284800 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 284800 0x109780: main (Bakery_func.c:176)
+ n1: 120551 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 120551 0x109780: main (Bakery_func.c:176)
+ n0: 75099 in 5 places, all below massif's threshold (1.00%)
+ n1: 68928 0x10A31A: refill (Bakery_func.c:578)
+  n0: 68928 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=24
+#-----------
+time=836478694
+mem_heap_B=2929880
+mem_heap_extra_B=1715488
+mem_stacks_B=0
+heap_tree=detailed
+n6: 2929880 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1768864 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 1768864 0x109780: main (Bakery_func.c:176)
+ n1: 597004 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 597004 0x109780: main (Bakery_func.c:176)
+ n1: 292896 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 292896 0x109780: main (Bakery_func.c:176)
+ n1: 124086 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 124086 0x109780: main (Bakery_func.c:176)
+ n0: 76758 in 5 places, all below massif's threshold (1.00%)
+ n1: 70272 0x10A31A: refill (Bakery_func.c:578)
+  n0: 70272 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=25
+#-----------
+time=854199854
+mem_heap_B=2959174
+mem_heap_extra_B=1732778
+mem_stacks_B=0
+heap_tree=detailed
+n6: 2959174 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1787136 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 1787136 0x109780: main (Bakery_func.c:176)
+ n1: 603077 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 603077 0x109780: main (Bakery_func.c:176)
+ n1: 295904 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 295904 0x109780: main (Bakery_func.c:176)
+ n1: 125371 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 125371 0x109780: main (Bakery_func.c:176)
+ n0: 77350 in 5 places, all below massif's threshold (1.00%)
+ n1: 70336 0x10A31A: refill (Bakery_func.c:578)
+  n0: 70336 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=26
+#-----------
+time=887614226
+mem_heap_B=3014757
+mem_heap_extra_B=1765715
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=936192942
+mem_heap_B=3107220
+mem_heap_extra_B=1819852
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=957077558
+mem_heap_B=3143701
+mem_heap_extra_B=1841507
+mem_stacks_B=0
+heap_tree=detailed
+n6: 3143701 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1902208 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 1902208 0x109780: main (Bakery_func.c:176)
+ n1: 642292 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 642292 0x109780: main (Bakery_func.c:176)
+ n1: 315072 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 315072 0x109780: main (Bakery_func.c:176)
+ n1: 133297 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 133297 0x109780: main (Bakery_func.c:176)
+ n0: 80464 in 5 places, all below massif's threshold (1.00%)
+ n1: 70368 0x10A31A: refill (Bakery_func.c:578)
+  n0: 70368 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=29
+#-----------
+time=992300049
+mem_heap_B=3207828
+mem_heap_extra_B=1879228
+mem_stacks_B=0
+heap_tree=detailed
+n6: 3207828 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1942016 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 1942016 0x109780: main (Bakery_func.c:176)
+ n1: 655742 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 655742 0x109780: main (Bakery_func.c:176)
+ n1: 321824 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 321824 0x109780: main (Bakery_func.c:176)
+ n1: 136219 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 136219 0x109780: main (Bakery_func.c:176)
+ n0: 81499 in 5 places, all below massif's threshold (1.00%)
+ n1: 70528 0x10A31A: refill (Bakery_func.c:578)
+  n0: 70528 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=30
+#-----------
+time=1021271273
+mem_heap_B=3254361
+mem_heap_extra_B=1906807
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=1041618964
+mem_heap_B=3284291
+mem_heap_extra_B=1924589
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=1072082660
+mem_heap_B=3339294
+mem_heap_extra_B=1956906
+mem_stacks_B=0
+heap_tree=detailed
+n6: 3339294 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2026912 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2026912 0x109780: main (Bakery_func.c:176)
+ n1: 684288 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 684288 0x109780: main (Bakery_func.c:176)
+ n1: 335424 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 335424 0x109780: main (Bakery_func.c:176)
+ n1: 141946 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 141946 0x109780: main (Bakery_func.c:176)
+ n0: 82788 in 5 places, all below massif's threshold (1.00%)
+ n1: 67936 0x10A31A: refill (Bakery_func.c:578)
+  n0: 67936 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=33
+#-----------
+time=1114099494
+mem_heap_B=3406854
+mem_heap_extra_B=1995994
+mem_stacks_B=0
+heap_tree=detailed
+n6: 3406854 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2069792 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2069792 0x109780: main (Bakery_func.c:176)
+ n1: 699258 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 699258 0x109780: main (Bakery_func.c:176)
+ n1: 342720 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 342720 0x109780: main (Bakery_func.c:176)
+ n1: 145096 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 145096 0x109780: main (Bakery_func.c:176)
+ n0: 83332 in 5 places, all below massif's threshold (1.00%)
+ n1: 66656 0x10A31A: refill (Bakery_func.c:578)
+  n0: 66656 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=34
+#-----------
+time=1153388171
+mem_heap_B=3475343
+mem_heap_extra_B=2036737
+mem_stacks_B=0
+heap_tree=detailed
+n6: 3475343 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2113792 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2113792 0x109780: main (Bakery_func.c:176)
+ n1: 714168 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 714168 0x109780: main (Bakery_func.c:176)
+ n1: 349984 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 349984 0x109780: main (Bakery_func.c:176)
+ n1: 148139 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 148139 0x109780: main (Bakery_func.c:176)
+ n0: 83852 in 5 places, all below massif's threshold (1.00%)
+ n1: 65408 0x10A31A: refill (Bakery_func.c:578)
+  n0: 65408 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=35
+#-----------
+time=1185596519
+mem_heap_B=3530541
+mem_heap_extra_B=2069259
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=1232396238
+mem_heap_B=3601882
+mem_heap_extra_B=2111278
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=1280240212
+mem_heap_B=3673291
+mem_heap_extra_B=2153965
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1304702147
+mem_heap_B=3708330
+mem_heap_extra_B=2174638
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1332504317
+mem_heap_B=3746198
+mem_heap_extra_B=2197194
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=1356757891
+mem_heap_B=3783716
+mem_heap_extra_B=2219044
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1388011773
+mem_heap_B=3817036
+mem_heap_extra_B=2239172
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1416735921
+mem_heap_B=3857255
+mem_heap_extra_B=2262889
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=1446343152
+mem_heap_B=3894039
+mem_heap_extra_B=2284833
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=1481834352
+mem_heap_B=3932449
+mem_heap_extra_B=2307759
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=1504640259
+mem_heap_B=3958330
+mem_heap_extra_B=2322878
+mem_stacks_B=0
+heap_tree=detailed
+n5: 3958330 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2429504 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2429504 0x109780: main (Bakery_func.c:176)
+ n1: 820906 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 820906 0x109780: main (Bakery_func.c:176)
+ n1: 403552 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 403552 0x109780: main (Bakery_func.c:176)
+ n1: 171232 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 171232 0x109780: main (Bakery_func.c:176)
+ n0: 133136 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=1535807467
+mem_heap_B=3998250
+mem_heap_extra_B=2346302
+mem_stacks_B=0
+heap_tree=detailed
+n5: 3998250 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2457920 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2457920 0x109780: main (Bakery_func.c:176)
+ n1: 830516 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 830516 0x109780: main (Bakery_func.c:176)
+ n1: 407968 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 407968 0x109780: main (Bakery_func.c:176)
+ n1: 172986 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 172986 0x109780: main (Bakery_func.c:176)
+ n0: 128860 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=47
+#-----------
+time=1561708506
+mem_heap_B=4027657
+mem_heap_extra_B=2363879
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=1602479340
+mem_heap_B=4079129
+mem_heap_extra_B=2394151
+mem_stacks_B=0
+heap_tree=detailed
+n5: 4079129 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2513632 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2513632 0x109780: main (Bakery_func.c:176)
+ n1: 849064 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 849064 0x109780: main (Bakery_func.c:176)
+ n1: 417504 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 417504 0x109780: main (Bakery_func.c:176)
+ n1: 177074 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 177074 0x109780: main (Bakery_func.c:176)
+ n0: 121855 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=1628423139
+mem_heap_B=4099251
+mem_heap_extra_B=2406421
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=1643941723
+mem_heap_B=4119789
+mem_heap_extra_B=2418595
+mem_stacks_B=0
+heap_tree=detailed
+n6: 4119789 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2542240 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2542240 0x109780: main (Bakery_func.c:176)
+ n1: 858570 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 858570 0x109780: main (Bakery_func.c:176)
+ n1: 422528 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 422528 0x109780: main (Bakery_func.c:176)
+ n1: 179251 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 179251 0x109780: main (Bakery_func.c:176)
+ n0: 65660 0x1098A9: main (Bakery_func.c:254)
+ n0: 51540 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=1661686602
+mem_heap_B=4144201
+mem_heap_extra_B=2432647
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=1676285054
+mem_heap_B=4161632
+mem_heap_extra_B=2443168
+mem_stacks_B=0
+heap_tree=detailed
+n6: 4161632 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2571104 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2571104 0x109780: main (Bakery_func.c:176)
+ n1: 868540 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 868540 0x109780: main (Bakery_func.c:176)
+ n1: 426880 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 426880 0x109780: main (Bakery_func.c:176)
+ n1: 181142 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 181142 0x109780: main (Bakery_func.c:176)
+ n0: 66380 0x1098A9: main (Bakery_func.c:254)
+ n0: 47586 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=53
+#-----------
+time=1694033556
+mem_heap_B=4185263
+mem_heap_extra_B=2456993
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=1711510421
+mem_heap_B=4203957
+mem_heap_extra_B=2468203
+mem_stacks_B=0
+heap_tree=detailed
+n6: 4203957 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2600448 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2600448 0x109780: main (Bakery_func.c:176)
+ n1: 878487 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 878487 0x109780: main (Bakery_func.c:176)
+ n1: 431712 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 431712 0x109780: main (Bakery_func.c:176)
+ n1: 183259 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 183259 0x109780: main (Bakery_func.c:176)
+ n0: 67097 0x1098A9: main (Bakery_func.c:254)
+ n0: 42954 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=1729371919
+mem_heap_B=4229529
+mem_heap_extra_B=2483167
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=1742607863
+mem_heap_B=4246686
+mem_heap_extra_B=2493554
+mem_stacks_B=0
+heap_tree=detailed
+n6: 4246686 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2630144 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2630144 0x109780: main (Bakery_func.c:176)
+ n1: 888264 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 888264 0x109780: main (Bakery_func.c:176)
+ n1: 436928 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 436928 0x109780: main (Bakery_func.c:176)
+ n1: 185478 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 185478 0x109780: main (Bakery_func.c:176)
+ n0: 67829 0x1098A9: main (Bakery_func.c:254)
+ n0: 38043 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=57
+#-----------
+time=1760397786
+mem_heap_B=4266203
+mem_heap_extra_B=2505109
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=1776942970
+mem_heap_B=4289435
+mem_heap_extra_B=2518397
+mem_stacks_B=0
+heap_tree=detailed
+n6: 4289435 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2661088 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2661088 0x109780: main (Bakery_func.c:176)
+ n1: 898731 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 898731 0x109780: main (Bakery_func.c:176)
+ n1: 442016 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 442016 0x109780: main (Bakery_func.c:176)
+ n1: 187702 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 187702 0x109780: main (Bakery_func.c:176)
+ n0: 68660 0x1098A9: main (Bakery_func.c:254)
+ n0: 31238 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=59
+#-----------
+time=1794701784
+mem_heap_B=4308652
+mem_heap_extra_B=2530068
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=1812487842
+mem_heap_B=4331853
+mem_heap_extra_B=2543491
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=1812630461
+mem_heap_B=4332280
+mem_heap_extra_B=2543752
+mem_stacks_B=0
+heap_tree=detailed
+n6: 4332280 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2691328 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2691328 0x109780: main (Bakery_func.c:176)
+ n1: 908601 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 908601 0x109780: main (Bakery_func.c:176)
+ n1: 447424 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 447424 0x109780: main (Bakery_func.c:176)
+ n1: 190213 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 190213 0x109780: main (Bakery_func.c:176)
+ n0: 69396 0x1098A9: main (Bakery_func.c:254)
+ n0: 25318 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=62
+#-----------
+time=1830363253
+mem_heap_B=4346965
+mem_heap_extra_B=2552707
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=1848252916
+mem_heap_B=4361004
+mem_heap_extra_B=2561140
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=1864292811
+mem_heap_B=4375368
+mem_heap_extra_B=2569768
+mem_stacks_B=0
+heap_tree=peak
+n6: 4375368 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2725248 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2725248 0x109780: main (Bakery_func.c:176)
+ n1: 919952 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 919952 0x109780: main (Bakery_func.c:176)
+ n1: 453504 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 453504 0x109780: main (Bakery_func.c:176)
+ n1: 192942 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 192942 0x109780: main (Bakery_func.c:176)
+ n0: 70616 0x1098A9: main (Bakery_func.c:254)
+ n0: 13106 in 5 places, all below massif's threshold (1.00%)

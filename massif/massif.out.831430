@@ -1,0 +1,1259 @@
+desc: (none)
+cmd: ./Bakery_func
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=157625
+mem_heap_B=4096
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=176984
+mem_heap_B=9066
+mem_heap_extra_B=406
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=211853
+mem_heap_B=10117
+mem_heap_extra_B=915
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=239036
+mem_heap_B=10489
+mem_heap_extra_B=1127
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=266701
+mem_heap_B=10981
+mem_heap_extra_B=1403
+mem_stacks_B=0
+heap_tree=detailed
+n9: 10981 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n1: 672 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 672 0x109780: main (Bakery_func.c:176)
+ n1: 576 0x10A31A: refill (Bakery_func.c:578)
+  n0: 576 0x1097CB: main (Bakery_func.c:224)
+ n0: 360 0x1099CD: main (Bakery_func.c:280)
+ n1: 342 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 342 0x109780: main (Bakery_func.c:176)
+ n1: 279 0x10A397: refill (Bakery_func.c:580)
+  n0: 279 0x1097CB: main (Bakery_func.c:224)
+ n0: 256 in 4 places, all below massif's threshold (1.00%)
+ n0: 176 0x1099EA: main (Bakery_func.c:283)
+ n1: 128 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 128 0x109780: main (Bakery_func.c:176)
+#-----------
+snapshot=6
+#-----------
+time=293813
+mem_heap_B=10805
+mem_heap_extra_B=1283
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=328258
+mem_heap_B=11368
+mem_heap_extra_B=1584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=358098
+mem_heap_B=12024
+mem_heap_extra_B=1912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=396052
+mem_heap_B=12270
+mem_heap_extra_B=2042
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=419208
+mem_heap_B=12339
+mem_heap_extra_B=2101
+mem_stacks_B=0
+heap_tree=detailed
+n9: 12339 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n1: 1024 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 1024 0x109780: main (Bakery_func.c:176)
+ n0: 840 0x1099CD: main (Bakery_func.c:280)
+ n1: 576 0x10A31A: refill (Bakery_func.c:578)
+  n0: 576 0x1097CB: main (Bakery_func.c:224)
+ n1: 506 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 506 0x109780: main (Bakery_func.c:176)
+ n0: 412 0x1099EA: main (Bakery_func.c:283)
+ n1: 294 0x10A397: refill (Bakery_func.c:580)
+  n0: 294 0x1097CB: main (Bakery_func.c:224)
+ n0: 271 in 4 places, all below massif's threshold (1.00%)
+ n1: 224 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 224 0x109780: main (Bakery_func.c:176)
+#-----------
+snapshot=11
+#-----------
+time=453266
+mem_heap_B=13452
+mem_heap_extra_B=2668
+mem_stacks_B=0
+heap_tree=detailed
+n9: 13452 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n1: 1376 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 1376 0x109780: main (Bakery_func.c:176)
+ n0: 1120 0x1099CD: main (Bakery_func.c:280)
+ n1: 688 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 688 0x109780: main (Bakery_func.c:176)
+ n0: 580 0x1099EA: main (Bakery_func.c:283)
+ n1: 576 0x10A31A: refill (Bakery_func.c:578)
+  n0: 576 0x1097CB: main (Bakery_func.c:224)
+ n0: 370 in 4 places, all below massif's threshold (1.00%)
+ n1: 294 0x10A397: refill (Bakery_func.c:580)
+  n0: 294 0x1097CB: main (Bakery_func.c:224)
+ n1: 256 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 256 0x109780: main (Bakery_func.c:176)
+#-----------
+snapshot=12
+#-----------
+time=484496
+mem_heap_B=14151
+mem_heap_extra_B=2993
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=518970
+mem_heap_B=14681
+mem_heap_extra_B=3311
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=560762
+mem_heap_B=14881
+mem_heap_extra_B=3343
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=592178
+mem_heap_B=15322
+mem_heap_extra_B=3638
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=627823
+mem_heap_B=16481
+mem_heap_extra_B=4191
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=659536
+mem_heap_B=16712
+mem_heap_extra_B=4216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=697557
+mem_heap_B=16387
+mem_heap_extra_B=4109
+mem_stacks_B=0
+heap_tree=detailed
+n10: 16387 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n1: 2304 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2304 0x109780: main (Bakery_func.c:176)
+ n0: 1800 0x1099CD: main (Bakery_func.c:280)
+ n1: 1167 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1167 0x109780: main (Bakery_func.c:176)
+ n0: 909 0x1099EA: main (Bakery_func.c:283)
+ n1: 736 0x10A31A: refill (Bakery_func.c:578)
+  n0: 736 0x1097CB: main (Bakery_func.c:224)
+ n1: 393 0x10A397: refill (Bakery_func.c:580)
+  n0: 393 0x1097CB: main (Bakery_func.c:224)
+ n1: 384 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 384 0x109780: main (Bakery_func.c:176)
+ n0: 276 in 3 places, all below massif's threshold (1.00%)
+ n1: 226 0x109FF2: insert_new_rec (Bakery_func.c:463)
+  n0: 226 0x109780: main (Bakery_func.c:176)
+#-----------
+snapshot=19
+#-----------
+time=724822
+mem_heap_B=16546
+mem_heap_extra_B=4334
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=766817
+mem_heap_B=17353
+mem_heap_extra_B=4807
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=793797
+mem_heap_B=17741
+mem_heap_extra_B=5059
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=816109
+mem_heap_B=18253
+mem_heap_extra_B=5339
+mem_stacks_B=0
+heap_tree=detailed
+n10: 18253 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 2920 0x1099CD: main (Bakery_func.c:280)
+ n1: 2176 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2176 0x109780: main (Bakery_func.c:176)
+ n0: 1442 0x1099EA: main (Bakery_func.c:283)
+ n1: 1098 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1098 0x109780: main (Bakery_func.c:176)
+ n1: 832 0x10A31A: refill (Bakery_func.c:578)
+  n0: 832 0x1097CB: main (Bakery_func.c:224)
+ n0: 529 in 3 places, all below massif's threshold (1.00%)
+ n1: 416 0x10A397: refill (Bakery_func.c:580)
+  n0: 416 0x1097CB: main (Bakery_func.c:224)
+ n1: 384 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 384 0x109780: main (Bakery_func.c:176)
+ n1: 264 0x10A7DD: insert_name_check (Bakery_func.c:790)
+  n0: 264 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=847334
+mem_heap_B=17938
+mem_heap_extra_B=5102
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=890562
+mem_heap_B=18281
+mem_heap_extra_B=5399
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=918508
+mem_heap_B=18991
+mem_heap_extra_B=5801
+mem_stacks_B=0
+heap_tree=detailed
+n10: 18991 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 3440 0x1099CD: main (Bakery_func.c:280)
+ n1: 2240 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2240 0x109780: main (Bakery_func.c:176)
+ n0: 1648 0x1099EA: main (Bakery_func.c:283)
+ n1: 1126 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1126 0x109780: main (Bakery_func.c:176)
+ n1: 672 0x10A31A: refill (Bakery_func.c:578)
+  n0: 672 0x1097CB: main (Bakery_func.c:224)
+ n0: 625 in 3 places, all below massif's threshold (1.00%)
+ n1: 416 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 416 0x109780: main (Bakery_func.c:176)
+ n1: 344 0x10A397: refill (Bakery_func.c:580)
+  n0: 344 0x1097CB: main (Bakery_func.c:224)
+ n1: 288 0x10A7DD: insert_name_check (Bakery_func.c:790)
+  n0: 288 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=940961
+mem_heap_B=19329
+mem_heap_extra_B=6023
+mem_stacks_B=0
+heap_tree=detailed
+n10: 19329 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 3640 0x1099CD: main (Bakery_func.c:280)
+ n1: 2240 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2240 0x109780: main (Bakery_func.c:176)
+ n0: 1748 0x1099EA: main (Bakery_func.c:283)
+ n1: 1126 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1126 0x109780: main (Bakery_func.c:176)
+ n1: 672 0x10A31A: refill (Bakery_func.c:578)
+  n0: 672 0x1097CB: main (Bakery_func.c:224)
+ n0: 639 in 3 places, all below massif's threshold (1.00%)
+ n1: 416 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 416 0x109780: main (Bakery_func.c:176)
+ n1: 344 0x10A397: refill (Bakery_func.c:580)
+  n0: 344 0x1097CB: main (Bakery_func.c:224)
+ n1: 312 0x10A7DD: insert_name_check (Bakery_func.c:790)
+  n0: 312 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=964475
+mem_heap_B=19994
+mem_heap_extra_B=6350
+mem_stacks_B=0
+heap_tree=detailed
+n10: 19994 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 3760 0x1099CD: main (Bakery_func.c:280)
+ n1: 2240 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2240 0x109780: main (Bakery_func.c:176)
+ n0: 1810 0x1099EA: main (Bakery_func.c:283)
+ n1: 1126 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1126 0x109780: main (Bakery_func.c:176)
+ n1: 992 0x10A31A: refill (Bakery_func.c:578)
+  n0: 992 0x1097CB: main (Bakery_func.c:224)
+ n0: 637 in 3 places, all below massif's threshold (1.00%)
+ n1: 509 0x10A397: refill (Bakery_func.c:580)
+  n0: 509 0x1097CB: main (Bakery_func.c:224)
+ n1: 416 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 416 0x109780: main (Bakery_func.c:176)
+ n1: 312 0x10A7DD: insert_name_check (Bakery_func.c:790)
+  n0: 312 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=997614
+mem_heap_B=19653
+mem_heap_extra_B=6107
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=1029631
+mem_heap_B=19627
+mem_heap_extra_B=6117
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=1053538
+mem_heap_B=19615
+mem_heap_extra_B=6001
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=1076440
+mem_heap_B=19795
+mem_heap_extra_B=6173
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=1121564
+mem_heap_B=20198
+mem_heap_extra_B=6442
+mem_stacks_B=0
+heap_tree=detailed
+n9: 20198 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 4120 0x1099CD: main (Bakery_func.c:280)
+ n1: 2240 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2240 0x109780: main (Bakery_func.c:176)
+ n0: 2002 0x1099EA: main (Bakery_func.c:283)
+ n1: 1126 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1126 0x109780: main (Bakery_func.c:176)
+ n0: 923 in 4 places, all below massif's threshold (1.00%)
+ n1: 768 0x10A31A: refill (Bakery_func.c:578)
+  n0: 768 0x1097CB: main (Bakery_func.c:224)
+ n1: 416 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 416 0x109780: main (Bakery_func.c:176)
+ n1: 411 0x10A397: refill (Bakery_func.c:580)
+  n0: 411 0x1097CB: main (Bakery_func.c:224)
+#-----------
+snapshot=33
+#-----------
+time=1149237
+mem_heap_B=20586
+mem_heap_extra_B=6638
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=1194174
+mem_heap_B=20550
+mem_heap_extra_B=6594
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=1228168
+mem_heap_B=21129
+mem_heap_extra_B=6927
+mem_stacks_B=0
+heap_tree=detailed
+n10: 21129 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 4360 0x1099CD: main (Bakery_func.c:280)
+ n1: 2400 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2400 0x109780: main (Bakery_func.c:176)
+ n0: 2127 0x1099EA: main (Bakery_func.c:283)
+ n1: 1218 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1218 0x109780: main (Bakery_func.c:176)
+ n1: 928 0x10A31A: refill (Bakery_func.c:578)
+  n0: 928 0x1097CB: main (Bakery_func.c:224)
+ n0: 693 in 3 places, all below massif's threshold (1.00%)
+ n1: 475 0x10A397: refill (Bakery_func.c:580)
+  n0: 475 0x1097CB: main (Bakery_func.c:224)
+ n1: 448 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 448 0x109780: main (Bakery_func.c:176)
+ n2: 288 0x10A7DD: insert_name_check (Bakery_func.c:790)
+  n1: 288 0x10ABDB: check_wo (Bakery_func.c:683)
+   n0: 288 0x10983C: main (Bakery_func.c:242)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=1269324
+mem_heap_B=21181
+mem_heap_extra_B=6907
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=1285480
+mem_heap_B=21216
+mem_heap_extra_B=6936
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1318395
+mem_heap_B=21368
+mem_heap_extra_B=7096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1342146
+mem_heap_B=21533
+mem_heap_extra_B=7163
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=1367672
+mem_heap_B=21298
+mem_heap_extra_B=6998
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1402966
+mem_heap_B=21544
+mem_heap_extra_B=7184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1432432
+mem_heap_B=21862
+mem_heap_extra_B=7346
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=1459929
+mem_heap_B=21474
+mem_heap_extra_B=7094
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=1486383
+mem_heap_B=21677
+mem_heap_extra_B=7243
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=1516984
+mem_heap_B=21896
+mem_heap_extra_B=7408
+mem_stacks_B=0
+heap_tree=detailed
+n9: 21896 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 4920 0x1099CD: main (Bakery_func.c:280)
+ n0: 2406 0x1099EA: main (Bakery_func.c:283)
+ n1: 2240 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2240 0x109780: main (Bakery_func.c:176)
+ n1: 1126 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1126 0x109780: main (Bakery_func.c:176)
+ n1: 1056 0x10A31A: refill (Bakery_func.c:578)
+  n0: 1056 0x1097CB: main (Bakery_func.c:224)
+ n0: 1001 in 4 places, all below massif's threshold (1.00%)
+ n1: 539 0x10A397: refill (Bakery_func.c:580)
+  n0: 539 0x1097CB: main (Bakery_func.c:224)
+ n1: 416 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 416 0x109780: main (Bakery_func.c:176)
+#-----------
+snapshot=46
+#-----------
+time=1534053
+mem_heap_B=22362
+mem_heap_extra_B=7638
+mem_stacks_B=0
+heap_tree=detailed
+n9: 22362 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 4960 0x1099CD: main (Bakery_func.c:280)
+ n0: 2422 0x1099EA: main (Bakery_func.c:283)
+ n1: 2240 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2240 0x109780: main (Bakery_func.c:176)
+ n1: 1344 0x10A31A: refill (Bakery_func.c:578)
+  n0: 1344 0x1097CB: main (Bakery_func.c:224)
+ n1: 1126 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1126 0x109780: main (Bakery_func.c:176)
+ n0: 972 in 4 places, all below massif's threshold (1.00%)
+ n1: 690 0x10A397: refill (Bakery_func.c:580)
+  n0: 690 0x1097CB: main (Bakery_func.c:224)
+ n1: 416 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 416 0x109780: main (Bakery_func.c:176)
+#-----------
+snapshot=47
+#-----------
+time=1558018
+mem_heap_B=21634
+mem_heap_extra_B=7222
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=1594931
+mem_heap_B=21874
+mem_heap_extra_B=7398
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=1617796
+mem_heap_B=21970
+mem_heap_extra_B=7366
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=1634011
+mem_heap_B=21984
+mem_heap_extra_B=7400
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=1651120
+mem_heap_B=22103
+mem_heap_extra_B=7489
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=1670229
+mem_heap_B=22138
+mem_heap_extra_B=7518
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=1688795
+mem_heap_B=22525
+mem_heap_extra_B=7763
+mem_stacks_B=0
+heap_tree=detailed
+n9: 22525 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 5280 0x1099CD: main (Bakery_func.c:280)
+ n0: 2580 0x1099EA: main (Bakery_func.c:283)
+ n1: 2240 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2240 0x109780: main (Bakery_func.c:176)
+ n1: 1184 0x10A31A: refill (Bakery_func.c:578)
+  n0: 1184 0x1097CB: main (Bakery_func.c:224)
+ n1: 1126 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1126 0x109780: main (Bakery_func.c:176)
+ n0: 952 in 4 places, all below massif's threshold (1.00%)
+ n1: 555 0x10A397: refill (Bakery_func.c:580)
+  n0: 555 0x1097CB: main (Bakery_func.c:224)
+ n1: 416 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 416 0x109780: main (Bakery_func.c:176)
+#-----------
+snapshot=54
+#-----------
+time=1693575
+mem_heap_B=22684
+mem_heap_extra_B=7852
+mem_stacks_B=0
+heap_tree=detailed
+n9: 22684 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 5280 0x1099CD: main (Bakery_func.c:280)
+ n0: 2580 0x1099EA: main (Bakery_func.c:283)
+ n1: 2240 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2240 0x109780: main (Bakery_func.c:176)
+ n1: 1280 0x10A31A: refill (Bakery_func.c:578)
+  n0: 1280 0x1097CB: main (Bakery_func.c:224)
+ n1: 1126 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1126 0x109780: main (Bakery_func.c:176)
+ n0: 952 in 4 places, all below massif's threshold (1.00%)
+ n1: 618 0x10A397: refill (Bakery_func.c:580)
+  n0: 618 0x1097CB: main (Bakery_func.c:224)
+ n1: 416 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 416 0x109780: main (Bakery_func.c:176)
+#-----------
+snapshot=55
+#-----------
+time=1701825
+mem_heap_B=22932
+mem_heap_extra_B=7972
+mem_stacks_B=0
+heap_tree=detailed
+n9: 22932 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 5280 0x1099CD: main (Bakery_func.c:280)
+ n0: 2580 0x1099EA: main (Bakery_func.c:283)
+ n1: 2240 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2240 0x109780: main (Bakery_func.c:176)
+ n1: 1440 0x10A31A: refill (Bakery_func.c:578)
+  n0: 1440 0x1097CB: main (Bakery_func.c:224)
+ n1: 1126 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1126 0x109780: main (Bakery_func.c:176)
+ n0: 952 in 4 places, all below massif's threshold (1.00%)
+ n1: 706 0x10A397: refill (Bakery_func.c:580)
+  n0: 706 0x1097CB: main (Bakery_func.c:224)
+ n1: 416 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 416 0x109780: main (Bakery_func.c:176)
+#-----------
+snapshot=56
+#-----------
+time=1724967
+mem_heap_B=22797
+mem_heap_extra_B=7859
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=1773511
+mem_heap_B=22751
+mem_heap_extra_B=7889
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=1782282
+mem_heap_B=23162
+mem_heap_extra_B=8102
+mem_stacks_B=0
+heap_tree=detailed
+n9: 23162 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 5360 0x1099CD: main (Bakery_func.c:280)
+ n0: 2623 0x1099EA: main (Bakery_func.c:283)
+ n1: 2400 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2400 0x109780: main (Bakery_func.c:176)
+ n1: 1312 0x10A31A: refill (Bakery_func.c:578)
+  n0: 1312 0x1097CB: main (Bakery_func.c:224)
+ n1: 1205 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1205 0x109780: main (Bakery_func.c:176)
+ n0: 993 in 4 places, all below massif's threshold (1.00%)
+ n1: 629 0x10A397: refill (Bakery_func.c:580)
+  n0: 629 0x1097CB: main (Bakery_func.c:224)
+ n1: 448 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 448 0x109780: main (Bakery_func.c:176)
+#-----------
+snapshot=59
+#-----------
+time=1798959
+mem_heap_B=23570
+mem_heap_extra_B=8278
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=1802852
+mem_heap_B=23729
+mem_heap_extra_B=8415
+mem_stacks_B=0
+heap_tree=detailed
+n9: 23729 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 5360 0x1099CD: main (Bakery_func.c:280)
+ n1: 2688 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2688 0x109780: main (Bakery_func.c:176)
+ n0: 2616 0x1099EA: main (Bakery_func.c:283)
+ n1: 1356 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1356 0x109780: main (Bakery_func.c:176)
+ n1: 1312 0x10A31A: refill (Bakery_func.c:578)
+  n0: 1312 0x1097CB: main (Bakery_func.c:224)
+ n0: 1064 in 4 places, all below massif's threshold (1.00%)
+ n1: 629 0x10A397: refill (Bakery_func.c:580)
+  n0: 629 0x1097CB: main (Bakery_func.c:224)
+ n1: 512 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 512 0x109780: main (Bakery_func.c:176)
+#-----------
+snapshot=61
+#-----------
+time=1816354
+mem_heap_B=23970
+mem_heap_extra_B=8558
+mem_stacks_B=0
+heap_tree=detailed
+n9: 23970 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 5520 0x1099CD: main (Bakery_func.c:280)
+ n0: 2692 0x1099EA: main (Bakery_func.c:283)
+ n1: 2688 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2688 0x109780: main (Bakery_func.c:176)
+ n1: 1356 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1356 0x109780: main (Bakery_func.c:176)
+ n1: 1280 0x10A31A: refill (Bakery_func.c:578)
+  n0: 1280 0x1097CB: main (Bakery_func.c:224)
+ n0: 1109 in 4 places, all below massif's threshold (1.00%)
+ n1: 621 0x10A397: refill (Bakery_func.c:580)
+  n0: 621 0x1097CB: main (Bakery_func.c:224)
+ n1: 512 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 512 0x109780: main (Bakery_func.c:176)
+#-----------
+snapshot=62
+#-----------
+time=1827577
+mem_heap_B=24190
+mem_heap_extra_B=8690
+mem_stacks_B=0
+heap_tree=detailed
+n10: 24190 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 5640 0x1099CD: main (Bakery_func.c:280)
+ n0: 2746 0x1099EA: main (Bakery_func.c:283)
+ n1: 2688 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2688 0x109780: main (Bakery_func.c:176)
+ n1: 1356 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1356 0x109780: main (Bakery_func.c:176)
+ n1: 1280 0x10A31A: refill (Bakery_func.c:578)
+  n0: 1280 0x1097CB: main (Bakery_func.c:224)
+ n0: 814 in 3 places, all below massif's threshold (1.00%)
+ n1: 621 0x10A397: refill (Bakery_func.c:580)
+  n0: 621 0x1097CB: main (Bakery_func.c:224)
+ n1: 512 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 512 0x109780: main (Bakery_func.c:176)
+ n0: 341 0x1098A9: main (Bakery_func.c:254)
+#-----------
+snapshot=63
+#-----------
+time=1844145
+mem_heap_B=24305
+mem_heap_extra_B=8767
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=1861015
+mem_heap_B=24092
+mem_heap_extra_B=8612
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=1896894
+mem_heap_B=24251
+mem_heap_extra_B=8741
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=1904107
+mem_heap_B=24411
+mem_heap_extra_B=8853
+mem_stacks_B=0
+heap_tree=detailed
+n10: 24411 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 5720 0x1099CD: main (Bakery_func.c:280)
+ n0: 2787 0x1099EA: main (Bakery_func.c:283)
+ n1: 2688 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2688 0x109780: main (Bakery_func.c:176)
+ n1: 1356 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1356 0x109780: main (Bakery_func.c:176)
+ n1: 1312 0x10A31A: refill (Bakery_func.c:578)
+  n0: 1312 0x1097CB: main (Bakery_func.c:224)
+ n0: 814 in 3 places, all below massif's threshold (1.00%)
+ n1: 672 0x10A397: refill (Bakery_func.c:580)
+  n0: 672 0x1097CB: main (Bakery_func.c:224)
+ n1: 512 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 512 0x109780: main (Bakery_func.c:176)
+ n0: 358 0x1098A9: main (Bakery_func.c:254)
+#-----------
+snapshot=67
+#-----------
+time=1920285
+mem_heap_B=24195
+mem_heap_extra_B=8797
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=1937298
+mem_heap_B=24395
+mem_heap_extra_B=8941
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=1946114
+mem_heap_B=24723
+mem_heap_extra_B=9125
+mem_stacks_B=0
+heap_tree=detailed
+n10: 24723 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 6040 0x1099CD: main (Bakery_func.c:280)
+ n0: 2902 0x1099EA: main (Bakery_func.c:283)
+ n1: 2624 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2624 0x109780: main (Bakery_func.c:176)
+ n1: 1321 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1321 0x109780: main (Bakery_func.c:176)
+ n1: 1248 0x10A31A: refill (Bakery_func.c:578)
+  n0: 1248 0x1097CB: main (Bakery_func.c:224)
+ n0: 852 in 3 places, all below massif's threshold (1.00%)
+ n1: 651 0x10A397: refill (Bakery_func.c:580)
+  n0: 651 0x1097CB: main (Bakery_func.c:224)
+ n1: 512 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 512 0x109780: main (Bakery_func.c:176)
+ n0: 381 0x1098A9: main (Bakery_func.c:254)
+#-----------
+snapshot=70
+#-----------
+time=1963107
+mem_heap_B=24536
+mem_heap_extra_B=9024
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=1981365
+mem_heap_B=24387
+mem_heap_extra_B=8885
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=2015154
+mem_heap_B=24506
+mem_heap_extra_B=8990
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=2031877
+mem_heap_B=24716
+mem_heap_extra_B=9172
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=2044210
+mem_heap_B=24914
+mem_heap_extra_B=9302
+mem_stacks_B=0
+heap_tree=detailed
+n10: 24914 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 6240 0x1099CD: main (Bakery_func.c:280)
+ n0: 2999 0x1099EA: main (Bakery_func.c:283)
+ n1: 2624 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2624 0x109780: main (Bakery_func.c:176)
+ n1: 1321 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1321 0x109780: main (Bakery_func.c:176)
+ n1: 1120 0x10A31A: refill (Bakery_func.c:578)
+  n0: 1120 0x1097CB: main (Bakery_func.c:224)
+ n0: 899 in 3 places, all below massif's threshold (1.00%)
+ n1: 583 0x10A397: refill (Bakery_func.c:580)
+  n0: 583 0x1097CB: main (Bakery_func.c:224)
+ n1: 512 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 512 0x109780: main (Bakery_func.c:176)
+ n0: 424 0x1098A9: main (Bakery_func.c:254)
+#-----------
+snapshot=75
+#-----------
+time=2058927
+mem_heap_B=25146
+mem_heap_extra_B=9462
+mem_stacks_B=0
+heap_tree=peak
+n10: 25146 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x48D8BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 8192 0x48E7CDF: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 4096 0x48E7D95: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BD0CF: __vfscanf_internal (vfscanf-internal.c:628)
+      n1: 4096 0x48BC141: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 4096 0x10921D: main (Bakery_func.c:66)
+   n1: 4096 0x48E6F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 4096 0x48E56D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 4096 0x48E56D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 4096 0x48DAF1B: puts (ioputs.c:40)
+       n1: 4096 0x10978C: printf (stdio2.h:112)
+        n0: 4096 0x10978C: main (Bakery_func.c:178)
+ n0: 6400 0x1099CD: main (Bakery_func.c:280)
+ n0: 3069 0x1099EA: main (Bakery_func.c:283)
+ n1: 2624 0x109E85: save_ingr_rec (Bakery_func.c:436)
+  n0: 2624 0x109780: main (Bakery_func.c:176)
+ n1: 1321 0x109E9C: save_ingr_rec (Bakery_func.c:437)
+  n0: 1321 0x109780: main (Bakery_func.c:176)
+ n1: 1120 0x10A31A: refill (Bakery_func.c:578)
+  n0: 1120 0x1097CB: main (Bakery_func.c:224)
+ n0: 899 in 3 places, all below massif's threshold (1.00%)
+ n1: 583 0x10A397: refill (Bakery_func.c:580)
+  n0: 583 0x1097CB: main (Bakery_func.c:224)
+ n1: 512 0x109FB0: insert_new_rec (Bakery_func.c:455)
+  n0: 512 0x109780: main (Bakery_func.c:176)
+ n0: 426 0x1098A9: main (Bakery_func.c:254)
+#-----------
+snapshot=76
+#-----------
+time=2075114
+mem_heap_B=13097
+mem_heap_extra_B=3095
+mem_stacks_B=0
+heap_tree=empty
