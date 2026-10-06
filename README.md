@@ -82,7 +82,3 @@ This is a simplified example of how the bakery system would manage recipes and i
 ## Technical notes
 
 This repository includes performance-analysis artifacts, which suggests the project was evaluated for optimization and memory behavior during development. The presence of `callgrind` and `massif` output files indicates the code was tested under profiling tools to measure execution time and memory usage.
-
-## Repository status
-
-The repository contains a mostly C-based implementation, with a few support directories and reference artifacts for testing and documentation.
