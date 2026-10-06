@@ -86,18 +86,3 @@ This repository includes performance-analysis artifacts, which suggests the proj
 ## Repository status
 
 The repository contains a mostly C-based implementation, with a few support directories and reference artifacts for testing and documentation.
-
-## License
-
-No explicit license file was found in the repository metadata. If you intend to redistribute or publish this project, consider adding a suitable open-source license such as MIT or GPL.
-
-## Contributions
-
-This project appears to be a personal academic or project-based implementation. If you want to extend it, the typical workflow would be:
-
-1. fork the repository
-2. create a feature branch
-3. modify the C implementation
-4. test with the provided input files or custom scenarios
-5. submit a pull request
-
